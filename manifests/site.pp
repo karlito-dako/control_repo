@@ -17,5 +17,5 @@ node /^web/ {
 }
 
 node 'minetest.puppet.vm' {
-  include role::web_server
+  include role::minecraft_server
 }
