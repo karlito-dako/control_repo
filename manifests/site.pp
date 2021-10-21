@@ -15,3 +15,7 @@ node /^app/ {
 node /^web/ {
   include role::web_server
 }
+
+node 'minetest.puppet.vm' {
+  include role::web_server
+}
